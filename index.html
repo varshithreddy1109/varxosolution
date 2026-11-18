@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Varxo Solution — Technology &amp; AI Solutions</title>
+<meta name="description" content="Varxo Solution builds websites, mobile applications, AI-powered systems and custom software solutions. We turn ambitious ideas into impactful digital products." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<header id="navbar" role="banner">
+  <nav class="container nav-inner" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo" id="navLogo" aria-label="Varxo Solution — Home">
+      VARXO <span>SOLUTION</span>
+    </a>
+
+    <ul class="nav-links" role="list" id="navLinks">
+      <li><a href="#services"     class="nav-link">Services</a></li>
+      <li><a href="#work"         class="nav-link">Our Work</a></li>
+      <li><a href="#technologies" class="nav-link">Technologies</a></li>
+      <li><a href="#about"        class="nav-link">About</a></li>
+      <li><a href="#contact"      class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-cta" id="navCta">
+      <a href="#contact" class="btn-nav">
+        Let's Talk
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:inline-block;vertical-align:middle;margin-left:4px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+  <ul class="mobile-menu-links" role="list">
+    <li><a href="#services"     class="mobile-menu-link">Services</a></li>
+    <li><a href="#work"         class="mobile-menu-link">Our Work</a></li>
+    <li><a href="#technologies" class="mobile-menu-link">Technologies</a></li>
+    <li><a href="#about"        class="mobile-menu-link">About</a></li>
+    <li><a href="#contact"      class="mobile-menu-link">Contact</a></li>
+  </ul>
+  <div class="mobile-menu-footer">
+    <a href="#contact" class="btn btn-primary">Let's Talk →</a>
+  </div>
+</div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="hero" aria-label="Hero">
+  <div class="hero-video-wrap" aria-hidden="true">
+    <video class="hero-video" id="heroVideoA"
+      muted autoplay loop playsinline
+      poster="https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/82e7eb75-c65f-490a-99b5-f3d1cad54200.webp">
+      <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260912_104036_bd6924f6-3c8e-417e-8465-6d03c8c2e9e6.mp4" type="video/mp4" />
+    </video>
+    <video class="hero-video" id="heroVideoB"
+      muted playsinline
+      poster="https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/82e7eb75-c65f-490a-99b5-f3d1cad54200.webp">
+      <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260912_104036_bd6924f6-3c8e-417e-8465-6d03c8c2e9e6.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge" id="heroBadge">
+      <span class="hero-badge-dot" aria-hidden="true"></span>
+      Technology &amp; AI Solutions
+    </div>
+
+    <h1 class="hero-headline" aria-label="We Build What's Next.">
+      <span class="hero-line-wrap"><span class="hero-line" id="heroLine1">We Build</span></span>
+      <span class="hero-line-wrap"><span class="hero-line" id="heroLine2">What's Next.</span></span>
+    </h1>
+
+    <p class="hero-desc" id="heroDesc">
+      From websites and mobile applications to AI-powered systems and custom software, we turn ambitious ideas into impactful digital solutions.
+    </p>
+
+    <div class="hero-cta" id="heroCta">
+      <a href="#work" class="btn btn-primary">
+        Explore Our Work
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#contact" class="btn btn-secondary">Start a Project →</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+     ============================================================ -->
+<section id="services" class="section--lg" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-intro reveal">
+      <div class="section-label">What We Do</div>
+      <h2 class="t-h2" id="services-heading">Technology Without<br>Boundaries.</h2>
+      <p class="t-body text-muted" style="margin-top:16px;">We combine engineering, creativity and emerging technologies to build solutions that solve real problems.</p>
+    </div>
+
+    <div class="services-grid" role="list">
+
+      <!-- 01 Web Dev -->
+      <div class="service-card reveal delay-1" role="listitem">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <div class="service-num">01</div>
+        <div class="service-title">Web Development</div>
+        <ul class="service-list" aria-label="Web development services">
+          <li>Business &amp; Corporate Websites</li>
+          <li>E-Commerce Websites</li>
+          <li>Custom Web Applications</li>
+          <li>Interactive Web Experiences</li>
+        </ul>
+      </div>
+
+      <!-- 02 Mobile -->
+      <div class="service-card reveal delay-2" role="listitem">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="3"/><circle cx="12" cy="18" r="1" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <div class="service-num">02</div>
+        <div class="service-title">Mobile Application Development</div>
+        <ul class="service-list" aria-label="Mobile development services">
+          <li>Android Applications</li>
+          <li>iOS Applications</li>
+          <li>Cross-Platform Applications</li>
+          <li>Custom Personal-Use Apps</li>
+        </ul>
+      </div>
+
+      <!-- 03 AI/ML -->
+      <div class="service-card reveal delay-3" role="listitem">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M16.9 16.9l2.1 2.1M4.9 19.1l2.1-2.1M16.9 7.1l2.1-2.1"/></svg>
+        </div>
+        <div class="service-num">03</div>
+        <div class="service-title">Artificial Intelligence &amp; Machine Learning</div>
+        <ul class="service-list" aria-label="AI and ML services">
+          <li>AI-Powered Applications</li>
+          <li>Custom AI Models</li>
+          <li>Machine Learning Solutions</li>
+          <li>Intelligent Automation</li>
+          <li>AI Integrations &amp; Data-Driven Systems</li>
+        </ul>
+      </div>
+
+      <!-- 04 Custom Software -->
+      <div class="service-card reveal delay-1" role="listitem">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <div class="service-num">04</div>
+        <div class="service-title">Custom Software Development</div>
+        <ul class="service-list" aria-label="Custom software development services">
+          <li>Business Software &amp; Management Systems</li>
+          <li>Desktop Applications</li>
+          <li>Custom Technical Solutions</li>
+          <li>Software Integrations</li>
+        </ul>
+      </div>
+
+      <!-- 05 UI/UX -->
+      <div class="service-card reveal delay-2" role="listitem">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.9L12 18l-6.2 3.1 1.2-6.9-5-4.9 6.9-1z"/></svg>
+        </div>
+        <div class="service-num">05</div>
+        <div class="service-title">UI/UX &amp; Product Design</div>
+        <ul class="service-list" aria-label="UI/UX design services">
+          <li>Interface &amp; Experience Design</li>
+          <li>Prototyping</li>
+          <li>Design Systems</li>
+          <li>Responsive Interfaces</li>
+        </ul>
+      </div>
+
+      <!-- 06 Backend -->
+      <div class="service-card reveal delay-3" role="listitem">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>
+        </div>
+        <div class="service-num">06</div>
+        <div class="service-title">Backend, APIs &amp; Databases</div>
+        <ul class="service-list" aria-label="Backend and database services">
+          <li>Backend Development</li>
+          <li>REST APIs</li>
+          <li>Database Design</li>
+          <li>Authentication Systems</li>
+          <li>Third-Party Integrations</li>
+        </ul>
+      </div>
+
+    </div><!-- /services-grid -->
+  </div>
+</section>
+
+<!-- ============================================================
+     OUR WORK
+     ============================================================ -->
+<section id="work" class="section--lg" aria-labelledby="work-heading">
+  <div class="container">
+    <div class="section-intro reveal">
+      <div class="section-label">Our Work</div>
+      <h2 class="t-h2" id="work-heading">Ideas Into Reality.</h2>
+      <p class="t-body text-muted" style="margin-top:16px;">A look at the digital experiences and technology solutions we're building.</p>
+    </div>
+
+    <div class="project-showcase">
+
+      <!-- Project 01 — Hotel -->
+      <article class="project-item reveal" aria-label="Project: Hotel Website">
+        <div class="project-info">
+          <div class="project-meta">
+            <span class="project-num">01</span>
+            <span class="project-category">Hospitality / Web Development</span>
+            <span class="project-status">In Progress</span>
+          </div>
+          <h3 class="project-title">Hotel Website</h3>
+          <p class="project-desc">
+            A modern digital experience for a hospitality business, designed to showcase its rooms, facilities, amenities and services through an elegant and user-friendly website.
+          </p>
+          <div class="project-actions">
+            <button class="btn btn-primary" onclick="openModal('hotel')" aria-haspopup="dialog">
+              View Details
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-visual reveal-right">
+          <div class="browser-mockup" aria-label="Hotel website desktop mockup">
+            <div class="browser-bar" aria-hidden="true">
+              <div class="browser-dots">
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+              </div>
+              <div class="browser-addr"><!-- replace: yourhotelproject.com --></div>
+            </div>
+            <div class="browser-screen browser-screen-hotel">
+              <div class="browser-placeholder-content" aria-hidden="true">
+                <div class="browser-placeholder-nav">
+                  <div class="browser-ph-logo"></div>
+                  <div class="browser-ph-links">
+                    <div class="browser-ph-link"></div>
+                    <div class="browser-ph-link"></div>
+                    <div class="browser-ph-link"></div>
+                  </div>
+                </div>
+                <div class="browser-placeholder-hero">
+                  <div class="browser-ph-h"></div>
+                  <div class="browser-ph-h2"></div>
+                  <div class="browser-ph-h3"></div>
+                  <div class="browser-ph-btn"></div>
+                </div>
+              </div>
+              <!-- REPLACE: Add actual hotel website screenshot here -->
+              <span class="edit-note">[ Replace with hotel website screenshot ]</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 02 — Architecture -->
+      <article class="project-item reveal" aria-label="Project: Architecture Company Website">
+        <div class="project-info">
+          <div class="project-meta">
+            <span class="project-num">02</span>
+            <span class="project-category">Architecture / Web Development</span>
+            <span class="project-status">In Progress</span>
+          </div>
+          <h3 class="project-title">Architecture Company<br>Website</h3>
+          <p class="project-desc">
+            A sophisticated digital presence for an architecture company, focusing on architectural projects, visual storytelling, design expertise and an immersive portfolio experience.
+          </p>
+          <div class="project-actions">
+            <button class="btn btn-primary" onclick="openModal('arch')" aria-haspopup="dialog">
+              View Details
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-visual reveal-left">
+          <div class="browser-mockup" aria-label="Architecture website desktop mockup">
+            <div class="browser-bar" aria-hidden="true">
+              <div class="browser-dots">
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+              </div>
+              <div class="browser-addr"><!-- replace: yourarchproject.com --></div>
+            </div>
+            <div class="browser-screen browser-screen-arch">
+              <div class="browser-placeholder-content" aria-hidden="true">
+                <div class="browser-placeholder-nav">
+                  <div class="browser-ph-logo"></div>
+                  <div class="browser-ph-links">
+                    <div class="browser-ph-link"></div>
+                    <div class="browser-ph-link"></div>
+                    <div class="browser-ph-link"></div>
+                  </div>
+                </div>
+                <div class="browser-placeholder-hero">
+                  <div class="browser-ph-h"></div>
+                  <div class="browser-ph-h2"></div>
+                  <div class="browser-ph-h3"></div>
+                  <div class="browser-ph-btn"></div>
+                </div>
+              </div>
+              <!-- REPLACE: Add actual architecture website screenshot here -->
+              <span class="edit-note">[ Replace with architecture website screenshot ]</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 03 — Mobile App -->
+      <article class="project-item reveal" aria-label="Project: Custom Mobile Application">
+        <div class="project-info">
+          <div class="project-meta">
+            <span class="project-num">03</span>
+            <span class="project-category">Mobile Application Development</span>
+            <span class="project-status">In Progress</span>
+          </div>
+          <h3 class="project-title">Custom Mobile<br>Application</h3>
+          <p class="project-desc">
+            A customized mobile application developed around a client's personal requirements, with an emphasis on usability, functionality and a tailored user experience.
+          </p>
+          <div class="project-actions">
+            <button class="btn btn-primary" onclick="openModal('app')" aria-haspopup="dialog">
+              View Details
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-visual reveal-right">
+          <div class="phone-mockup-wrap" aria-label="Mobile application mockup">
+            <!-- Phone A -->
+            <div class="phone-mockup">
+              <div class="phone-notch" aria-hidden="true"><div class="phone-notch-pill"></div></div>
+              <div class="phone-screen" aria-hidden="true">
+                <div class="ph-card">
+                  <div class="ph-card-header"></div>
+                  <div class="ph-card-line"></div>
+                  <div class="ph-card-line short"></div>
+                  <div class="ph-card-line accent"></div>
+                </div>
+                <div class="ph-card">
+                  <div class="ph-card-header"></div>
+                  <div class="ph-card-line"></div>
+                  <div class="ph-card-line short"></div>
+                </div>
+                <div class="ph-card">
+                  <div class="ph-card-header"></div>
+                  <div class="ph-card-line accent"></div>
+                </div>
+                <div class="ph-nav">
+                  <div class="ph-nav-dot active"></div>
+                  <div class="ph-nav-dot"></div>
+                  <div class="ph-nav-dot"></div>
+                  <div class="ph-nav-dot"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Phone B -->
+            <div class="phone-mockup">
+              <div class="phone-notch" aria-hidden="true"><div class="phone-notch-pill"></div></div>
+              <div class="phone-screen" aria-hidden="true" style="background:linear-gradient(160deg,#0d1a0a 0%,#111 50%,#0a0d08 100%);">
+                <div class="ph-card">
+                  <div class="ph-card-header"></div>
+                  <div class="ph-card-line"></div>
+                  <div class="ph-card-line short"></div>
+                </div>
+                <div class="ph-card" style="background:rgba(139,92,246,0.08);border-color:rgba(139,92,246,0.2);">
+                  <div class="ph-card-header" style="background:rgba(139,92,246,0.3);"></div>
+                  <div class="ph-card-line accent"></div>
+                  <div class="ph-card-line short"></div>
+                </div>
+                <div class="ph-nav">
+                  <div class="ph-nav-dot"></div>
+                  <div class="ph-nav-dot active"></div>
+                  <div class="ph-nav-dot"></div>
+                  <div class="ph-nav-dot"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Phone C (decorative) -->
+            <div class="phone-mockup">
+              <div class="phone-notch" aria-hidden="true"><div class="phone-notch-pill"></div></div>
+              <div class="phone-screen" aria-hidden="true" style="background:linear-gradient(160deg,#160a1a 0%,#111 50%,#0d0514 100%);">
+                <div class="ph-card">
+                  <div class="ph-card-header"></div>
+                  <div class="ph-card-line"></div>
+                </div>
+                <div class="ph-card">
+                  <div class="ph-card-header" style="background:rgba(167,139,250,0.3);"></div>
+                  <div class="ph-card-line"></div>
+                  <div class="ph-card-line short accent"></div>
+                </div>
+                <div class="ph-nav">
+                  <div class="ph-nav-dot"></div>
+                  <div class="ph-nav-dot"></div>
+                  <div class="ph-nav-dot active"></div>
+                  <div class="ph-nav-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div style="position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:0.65rem;color:rgba(255,255,255,0.3);white-space:nowrap;letter-spacing:0.08em;pointer-events:none;">
+              [ Replace with real app screenshots ]
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /project-showcase -->
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECT DETAIL MODALS
+     ============================================================ -->
+
+<!-- Hotel Modal -->
+<div class="project-modal-overlay" id="modal-hotel" role="dialog" aria-modal="true" aria-labelledby="modal-hotel-title">
+  <div class="project-modal">
+    <div class="modal-header">
+      <div class="project-meta" style="margin-bottom:12px;">
+        <span class="project-category">Hospitality / Web Development</span>
+        <span class="project-status">In Progress</span>
+      </div>
+      <h2 class="t-h3" id="modal-hotel-title">Hotel Website</h2>
+      <button class="modal-close" onclick="closeModal('hotel')" aria-label="Close dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <h4>Project Overview</h4>
+        <p>A modern digital experience for a hospitality business, designed to showcase its rooms, facilities, amenities and services through an elegant and user-friendly website.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Objectives</h4>
+        <ul>
+          <li>Create an elegant, modern web presence for the hotel</li>
+          <li>Showcase rooms, facilities and amenities effectively</li>
+          <li>Provide a seamless booking inquiry experience</li>
+          <li>Optimize for performance and mobile devices</li>
+          <li>Reflect the brand identity through design</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Design Approach</h4>
+        <p>Premium hospitality aesthetic with large visual storytelling, warm typographic pairings, and intuitive navigation. The design prioritizes imagery and direct calls to action. <!-- Add more details when available --></p>
+      </div>
+      <div class="modal-section">
+        <h4>Technologies Used</h4>
+        <div class="tech-tags">
+          <!-- Edit these tags to reflect actual technologies -->
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">[ Add more ]</span>
+        </div>
+      </div>
+      <div class="modal-section">
+        <h4>Development Status</h4>
+        <p>Currently in active development. Screenshots and live preview will be available upon completion. <!-- Update this section as the project progresses --></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Architecture Modal -->
+<div class="project-modal-overlay" id="modal-arch" role="dialog" aria-modal="true" aria-labelledby="modal-arch-title">
+  <div class="project-modal">
+    <div class="modal-header">
+      <div class="project-meta" style="margin-bottom:12px;">
+        <span class="project-category">Architecture / Web Development</span>
+        <span class="project-status">In Progress</span>
+      </div>
+      <h2 class="t-h3" id="modal-arch-title">Architecture Company Website</h2>
+      <button class="modal-close" onclick="closeModal('arch')" aria-label="Close dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <h4>Project Overview</h4>
+        <p>A sophisticated digital presence for an architecture company, focusing on architectural projects, visual storytelling, design expertise and an immersive portfolio experience.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Objectives</h4>
+        <ul>
+          <li>Build an immersive architectural portfolio website</li>
+          <li>Showcase completed and ongoing projects effectively</li>
+          <li>Communicate the firm's design philosophy and expertise</li>
+          <li>Deliver an elegant, minimal visual aesthetic</li>
+          <li>Create intuitive project browsing and filtering</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Design Approach</h4>
+        <p>Minimal and typographic-led design with generous white space, full-bleed imagery, and a confident layout that lets the architecture speak for itself. <!-- Add more when available --></p>
+      </div>
+      <div class="modal-section">
+        <h4>Technologies Used</h4>
+        <div class="tech-tags">
+          <!-- Edit these tags to reflect actual technologies -->
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">[ Add more ]</span>
+        </div>
+      </div>
+      <div class="modal-section">
+        <h4>Development Status</h4>
+        <p>Currently in active development. Screenshots and live preview will be available upon completion. <!-- Update this section as the project progresses --></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile App Modal -->
+<div class="project-modal-overlay" id="modal-app" role="dialog" aria-modal="true" aria-labelledby="modal-app-title">
+  <div class="project-modal">
+    <div class="modal-header">
+      <div class="project-meta" style="margin-bottom:12px;">
+        <span class="project-category">Mobile Application Development</span>
+        <span class="project-status">In Progress</span>
+      </div>
+      <h2 class="t-h3" id="modal-app-title">Custom Mobile Application</h2>
+      <button class="modal-close" onclick="closeModal('app')" aria-label="Close dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <h4>Project Overview</h4>
+        <p>A customized mobile application developed around a client's personal requirements, with an emphasis on usability, functionality and a tailored user experience.</p>
+      </div>
+      <div class="modal-section">
+        <h4>Objectives</h4>
+        <ul>
+          <li>Deliver a fully tailored mobile application experience</li>
+          <li>Prioritize intuitive UX and smooth interactions</li>
+          <li>Implement the client's specific functional requirements</li>
+          <li>Build for reliability and performance on target devices</li>
+          <li>Design a clean, modern application interface</li>
+        </ul>
+      </div>
+      <div class="modal-section">
+        <h4>Design Approach</h4>
+        <p>User-centred design process, beginning with requirements mapping and wireframing through to high-fidelity prototyping and development. Dark theme with clear information hierarchy. <!-- Add more when available --></p>
+      </div>
+      <div class="modal-section">
+        <h4>Technologies Used</h4>
+        <div class="tech-tags">
+          <!-- Edit these tags to reflect actual technologies -->
+          <span class="tech-tag">[ Platform — Android / iOS / Cross-platform ]</span>
+          <span class="tech-tag">[ Framework ]</span>
+          <span class="tech-tag">[ Add more ]</span>
+        </div>
+      </div>
+      <div class="modal-section">
+        <h4>Development Status</h4>
+        <p>Currently in active development. App screenshots and further details will be added as the project progresses. <!-- Update this section regularly --></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     TECHNOLOGIES
+     ============================================================ -->
+<section id="technologies" class="section" aria-labelledby="tech-heading">
+  <div class="container">
+    <div class="section-intro reveal">
+      <div class="section-label">Tech Stack</div>
+      <h2 class="t-h2" id="tech-heading">Powered By Technology.</h2>
+      <p class="t-body text-muted" style="margin-top:16px;">We work with a broad range of technologies to deliver the right solution for every project.</p>
+    </div>
+
+    <!-- Dynamically rendered by js/main.js from localStorage -->
+    <div class="tech-categories" id="techCategoriesContainer"></div>
+
+    <!-- Unobtrusive management trigger -->
+    <div class="tech-manager-trigger">
+      <button class="tech-manager-btn" id="openTechManager" aria-haspopup="dialog" aria-label="Manage technologies">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+        Manage Technologies
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TECH MANAGER PANEL (hidden from visitors; activated above)
+     ============================================================ -->
+<div class="tech-manager-overlay" id="techManagerOverlay" role="dialog" aria-modal="true" aria-labelledby="tmPanelTitle">
+  <div class="tech-manager-panel">
+
+    <div class="tm-header">
+      <div class="tm-header-left">
+        <div class="tm-title" id="tmPanelTitle">Manage Technologies</div>
+        <div class="tm-subtitle">Changes are saved automatically and persist after refresh.</div>
+      </div>
+      <div class="tm-header-actions">
+        <button class="tm-btn-reset" id="tmResetBtn" aria-label="Restore default technology list">Restore Defaults</button>
+        <button class="tm-close" id="tmCloseBtn" aria-label="Close manager">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="tm-body">
+
+      <!-- Add new technology form -->
+      <form class="tm-add-form" id="tmAddForm" novalidate>
+        <div class="tm-form-title">Add a Technology</div>
+        <div class="tm-form-row">
+          <input class="tm-input" type="text" id="tmNewName" placeholder="Technology name (e.g. Supabase)" required autocomplete="off" />
+          <select class="tm-select" id="tmCatSelect" required>
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+        <button type="submit" class="tm-btn-add">Add Technology</button>
+      </form>
+
+      <!-- Category list with edit / delete per item -->
+      <div class="tm-categories" id="tmCategoryList">
+        <!-- Populated dynamically by js/main.js -->
+      </div>
+
+    </div><!-- /tm-body -->
+  </div><!-- /tech-manager-panel -->
+</div><!-- /tech-manager-overlay -->
+
+<!-- Reset confirmation dialog -->
+<div class="tm-confirm-overlay" id="tmConfirmOverlay" role="alertdialog" aria-modal="true" aria-labelledby="tmConfirmTitle">
+  <div class="tm-confirm-box">
+    <div class="tm-confirm-icon" aria-hidden="true">⚠️</div>
+    <div class="tm-confirm-title" id="tmConfirmTitle">Restore default list?</div>
+    <div class="tm-confirm-desc">This will permanently replace your current technology list with the original defaults. This cannot be undone.</div>
+    <div class="tm-confirm-actions">
+      <button class="tm-btn-cancel" id="tmCancelReset">Cancel</button>
+      <button class="tm-btn-confirm-reset" id="tmConfirmReset">Yes, Restore Defaults</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about" class="section--lg" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-layout">
+
+      <div>
+        <div class="section-label reveal">Who We Are</div>
+        <h2 class="t-h2 reveal delay-1" id="about-heading">We Turn Ideas<br>Into Technology.</h2>
+        <p class="t-body text-muted reveal delay-2" style="margin-top:20px;margin-bottom:40px;">
+          At Varxo Solution, we believe technology should make ideas possible. We bring together software engineering, modern design and emerging technologies to develop digital products that solve problems and create meaningful experiences.
+        </p>
+
+        <div class="about-values reveal delay-3">
+          <div class="value-item">
+            <div class="value-item-title">Innovation</div>
+            <div class="value-item-desc">We stay at the forefront of technology to build forward-thinking solutions.</div>
+          </div>
+          <div class="value-item">
+            <div class="value-item-title">Quality</div>
+            <div class="value-item-desc">We build with precision, care and a commitment to engineering excellence.</div>
+          </div>
+          <div class="value-item">
+            <div class="value-item-title">User Focus</div>
+            <div class="value-item-desc">Every decision is guided by the needs and experience of real users.</div>
+          </div>
+          <div class="value-item">
+            <div class="value-item-title">Adaptability</div>
+            <div class="value-item-desc">We continuously evolve our skills to meet new challenges and technologies.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-pillars reveal-right">
+        <div class="about-pillar">
+          <div class="about-pillar-label">What We Do</div>
+          <h4>Full-Spectrum Digital Development</h4>
+          <p>From concept to deployment, we build complete digital products — websites, applications, AI systems and custom software — tailored to each client's unique requirements.</p>
+        </div>
+        <div class="about-pillar">
+          <div class="about-pillar-label">How We Think</div>
+          <h4>Engineering Meets Creativity</h4>
+          <p>We approach every project with both technical rigour and creative vision. Good products require both strong engineering foundations and thoughtful, user-centred design.</p>
+        </div>
+        <div class="about-pillar">
+          <div class="about-pillar-label">What We Build</div>
+          <h4>Products That Solve Real Problems</h4>
+          <p>We focus on building practical, impactful technology. Our work prioritises real-world usability, long-term maintainability and measurable results for the people who use our products.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROCESS
+     ============================================================ -->
+<section id="process" class="section--lg" aria-labelledby="process-heading">
+  <div class="container">
+    <div class="section-intro center reveal">
+      <div class="section-label" style="justify-content:center;">How We Work</div>
+      <h2 class="t-h2" id="process-heading">From Concept To Creation.</h2>
+      <p class="t-body text-muted" style="margin-top:16px;max-width:520px;margin-left:auto;margin-right:auto;">Our development process is designed to bring clarity, quality and momentum to every project.</p>
+    </div>
+
+    <div class="timeline" role="list">
+
+      <div class="timeline-step reveal delay-1" role="listitem">
+        <div class="step-num" aria-hidden="true">01</div>
+        <div class="step-title">Discover</div>
+        <div class="step-desc">We start by understanding your idea, your goals and your requirements in depth. Clear discovery prevents costly mistakes later.</div>
+      </div>
+
+      <div class="timeline-step reveal delay-2" role="listitem">
+        <div class="step-num" aria-hidden="true">02</div>
+        <div class="step-title">Plan</div>
+        <div class="step-desc">We define the architecture, features, timeline and technical approach before a single line of code is written.</div>
+      </div>
+
+      <div class="timeline-step reveal delay-3" role="listitem">
+        <div class="step-num" aria-hidden="true">03</div>
+        <div class="step-title">Design</div>
+        <div class="step-desc">We create the interface and user experience — from wireframes to high-fidelity designs that reflect your brand and work for your users.</div>
+      </div>
+
+      <div class="timeline-step reveal delay-4" role="listitem">
+        <div class="step-num" aria-hidden="true">04</div>
+        <div class="step-title">Develop</div>
+        <div class="step-desc">We build the actual product with clean, maintainable code, following best practices and keeping you informed throughout.</div>
+      </div>
+
+      <div class="timeline-step reveal delay-5" role="listitem">
+        <div class="step-num" aria-hidden="true">05</div>
+        <div class="step-title">Test</div>
+        <div class="step-desc">We validate functionality, performance and quality across devices and environments before anything reaches production.</div>
+      </div>
+
+      <div class="timeline-step reveal delay-6" role="listitem">
+        <div class="step-num" aria-hidden="true">06</div>
+        <div class="step-title">Deliver</div>
+        <div class="step-desc">We deploy, hand over and support the finished solution. The end of development is the beginning of your product's life.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section id="contact" class="section--lg" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="contact-layout">
+
+      <div class="contact-info reveal-left">
+        <div class="section-label">Contact Us</div>
+        <h2 class="t-h2" id="contact-heading">Have An Idea?<br>Let's Build It.</h2>
+        <p class="t-body text-muted" style="margin-top:16px;">Whether you're planning a website, an application, an AI solution or something entirely different, let's discuss what we can create together.</p>
+
+        <div class="contact-channels" style="margin-top:40px;">
+          <div class="contact-channel">
+            <div class="contact-channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="contact-channel-label">Email</div>
+              <!-- REPLACE: Add your email address -->
+              <div class="contact-channel-value">hello@varxosolution.com</div>
+              <div class="contact-channel-note">Replace with your actual email address</div>
+            </div>
+          </div>
+          <div class="contact-channel">
+            <div class="contact-channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.63 19.79 19.79 0 01.08 1 2 2 0 012.08-.01H5a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.1a16 16 0 006.72 6.72l1.21-1.21a2 2 0 012.11-.45c.9.33 1.85.56 2.81.7A2 2 0 0122 14.92z"/></svg>
+            </div>
+            <div>
+              <div class="contact-channel-label">WhatsApp</div>
+              <!-- REPLACE: Add your WhatsApp number -->
+              <div class="contact-channel-value">+00 000 000 0000</div>
+              <div class="contact-channel-note">Replace with your actual WhatsApp number</div>
+            </div>
+          </div>
+          <div class="contact-channel">
+            <div class="contact-channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div>
+              <div class="contact-channel-label">Instagram</div>
+              <div class="contact-channel-value"><a href="https://www.instagram.com/varxosolutions/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">@varxosolutions</a></div>
+              <div class="contact-channel-note">Follow us on Instagram</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form reveal-right" role="form" aria-label="Project inquiry form">
+        <form id="contactForm" name="contact" method="POST" action="/" data-netlify="true" data-netlify-honeypot="bot-field" novalidate>
+          <!-- Netlify Forms Hidden Inputs -->
+          <input type="hidden" name="form-name" value="contact" />
+          <p style="display:none;" aria-hidden="true">
+            <label>Don’t fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+          </p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="f-name">Full Name *</label>
+              <input class="form-input" type="text" id="f-name" name="name" placeholder="Your full name" autocomplete="name" required />
+              <span class="form-error-msg" id="err-name">Please enter your name.</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="f-email">Email Address *</label>
+              <input class="form-input" type="email" id="f-email" name="email" placeholder="you@email.com" autocomplete="email" required />
+              <span class="form-error-msg" id="err-email">Please enter a valid email address.</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="f-company">Company Name <span class="optional">(optional)</span></label>
+            <input class="form-input" type="text" id="f-company" name="company" placeholder="Your company name (if applicable)" autocomplete="organization" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="f-service">Service Required *</label>
+            <select class="form-select" id="f-service" name="service" required>
+              <option value="">Select a service...</option>
+              <option value="Web Development">Web Development</option>
+              <option value="Mobile Application Development">Mobile Application Development</option>
+              <option value="AI &amp; Machine Learning">AI &amp; Machine Learning</option>
+              <option value="Custom Software">Custom Software</option>
+              <option value="UI/UX Design">UI/UX Design</option>
+              <option value="Backend &amp; Database Development">Backend &amp; Database Development</option>
+              <option value="Other">Other</option>
+            </select>
+            <span class="form-error-msg" id="err-service">Please select a service.</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="f-message">Project Description *</label>
+            <textarea class="form-textarea" id="f-message" name="message" placeholder="Tell us about your project — what you're building, your goals, your timeline..." required></textarea>
+            <span class="form-error-msg" id="err-message">Please describe your project.</span>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary" id="btnSubmit">
+              <span id="btnSubmitText">Send Message</span>
+              <svg id="btnSubmitIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <div class="form-success" id="formSuccess" role="alert">
+            ✓ Thank you! Your message has been sent successfully. We will get back to you shortly.
+          </div>
+          <div class="form-alert-error" id="formError" role="alert">
+            ✕ Submission failed. If testing locally, note that Netlify Forms only receives submissions once deployed on Netlify. You can also reach us directly at hello@varxosolution.com.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo" aria-label="Varxo Solution — Back to top">VARXO <span>SOLUTION</span></a>
+        <p>Building technology for what's next.</p>
+        <div class="footer-socials">
+          <!-- REPLACE: Add your actual social media links -->
+          <a href="#" class="social-link" aria-label="LinkedIn" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter / X" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/varxosolutions/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="GitHub" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <ul class="footer-links">
+          <li><a href="#hero"         class="footer-link">Home</a></li>
+          <li><a href="#services"     class="footer-link">Services</a></li>
+          <li><a href="#work"         class="footer-link">Our Work</a></li>
+          <li><a href="#technologies" class="footer-link">Technologies</a></li>
+          <li><a href="#about"        class="footer-link">About</a></li>
+          <li><a href="#contact"      class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul class="footer-links">
+          <li><a href="#services" class="footer-link">Web Development</a></li>
+          <li><a href="#services" class="footer-link">Mobile Applications</a></li>
+          <li><a href="#services" class="footer-link">AI &amp; Machine Learning</a></li>
+          <li><a href="#services" class="footer-link">Custom Software</a></li>
+          <li><a href="#services" class="footer-link">UI/UX Design</a></li>
+          <li><a href="#services" class="footer-link">Backend &amp; APIs</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Varxo Solution. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="back-to-top" aria-label="Back to top" title="Back to top">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- Scripts — load projects first (openModal/closeModal), then main -->
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
