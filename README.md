@@ -79,8 +79,7 @@ The website showcases six core service domains offered by Varxo Solution:
 
 - **Dual-Video Hero Crossfade:** Seamless background video looping transition with smooth opacity crossfades and video fallback poster support.
 - **Accessibility & Motion Preferences:** Automatically detects `prefers-reduced-motion` to disable resource-heavy video transitions, parallax, and intense animations.
-- **Interactive Tech Stack Manager:** Built-in client-side management panel (`localStorage`-backed CRUD) allowing site administrators to add, rename, remove, and restore tech items directly from the UI.
-- **Dynamic Stack Rendering:** Categorized tech stack grid rendered dynamically across 8 distinct categories.
+- **Static Categorized Tech Stack:** Clear, accessible tech stack grid organized across 8 distinct technology categories with responsive pill badges and hover accents.
 - **Accessible Project Modals:** Dedicated modal windows for case studies (`Hotel Website`, `Architecture Company Website`, `Custom Mobile Application`) with backdrop-click, keyboard trap, and `Escape` key listeners.
 - **AJAX Netlify Forms:** Fully integrated contact form with client-side field validation, anti-spam honeypot field (`bot-field`), asynchronous submission (`fetch`), loading states, and inline error/success messaging.
 - **Modern Dark UI:** Tailored dark aesthetic with violet/purple accents (`#8B5CF6`, `#A78BFA`), glassmorphic panels, and refined typography.
@@ -93,12 +92,13 @@ The website showcases six core service domains offered by Varxo Solution:
 ## 💻 Technologies Used
 
 ### Website Implementation
-- **Markup:** Semantic HTML5 (`index.html`) using ARIA accessibility roles and metadata tags.
+- **Markup:** Semantic HTML5 (`index.html`) using ARIA accessibility roles, Open Graph, and SEO metadata tags.
 - **Styles:** Vanilla CSS3 (`css/style.css`) utilizing CSS custom properties (variables), CSS Grid, Flexbox, glassmorphism (`backdrop-filter`), and responsive media queries.
-- **Scripting:** Vanilla JavaScript (`js/main.js`, `js/projects.js`) utilizing ES6+, `IntersectionObserver`, `fetch()` API, and `localStorage`.
+- **Scripting:** Vanilla JavaScript (`js/main.js`, `js/projects.js`) utilizing ES6+, `IntersectionObserver`, and `fetch()` API.
 - **Typography:** Google Fonts — [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) (weights 300, 400, 500, 600, 800).
 - **Icons & Graphics:** Clean, scalable inline SVGs (no external icon font dependencies).
 - **Form Handling & Hosting:** [Netlify](https://www.netlify.com/) (Netlify Forms & Global Edge CDN).
+- **SEO & Discoverability:** Canonical URLs, Open Graph tags, `sitemap.xml`, and `robots.txt`.
 
 ### Capabilities & Technologies Managed in Site Data
 The site includes a default categorized dataset of technical proficiencies:
@@ -154,10 +154,12 @@ varxosolution/
 ├── LICENSE                 # Proprietary All Rights Reserved copyright license
 ├── README.md               # Repository documentation & guide
 ├── index.html              # Main single-page application structure & content
+├── robots.txt              # Search engine crawler instructions & sitemap pointer
+├── sitemap.xml             # XML sitemap for search engine indexing
 ├── css/
 │   └── style.css           # Complete styling, CSS variables, dark theme & responsive rules
 ├── js/
-│   ├── main.js             # Core interactions, animations, tech manager & form logic
+│   ├── main.js             # Core interactions, animations, and contact form logic
 │   └── projects.js         # Project modal dialog triggers and keyboard handlers
 └── assets/                 # Static media directory (images, icons, screenshots)
     └── .gitkeep            # Git keep file for tracking directory
@@ -270,8 +272,7 @@ The contact form is pre-configured to work seamlessly with **Netlify Forms**:
 - **Cards & Visuals:** Place your actual project screenshots in the `assets/` directory and update the mockup containers in `index.html`.
 
 ### 3. Customizing the Technologies Section
-- **Via the Browser UI:** Click the **"Manage Technologies"** button under the Tech Stack section on the website to add, rename, or delete items. Changes persist automatically in your browser's `localStorage`.
-- **In Code (Default State):** Open `js/main.js` and modify the `DEFAULT_DATA` object (around line 409) to permanently change default technologies for all visitors.
+- The technologies section is structured cleanly in `index.html` under `<div class="tech-categories">`. You can add, edit, or reorganize categories and badges directly in the HTML.
 
 ### 4. Adjusting Colors and Styles
 Global design tokens are organized at the top of `css/style.css`:
@@ -292,8 +293,11 @@ Global design tokens are organized at the top of `css/style.css`:
 ## 🔗 Links
 
 - **GitHub Repository:** [https://github.com/varshithreddy1109/varxosolution](https://github.com/varshithreddy1109/varxosolution)
-- **Live Demo / Website:** [https://varxosolution.com](https://varxosolution.com) *(or your Netlify deployment URL)*
+- **Live Website:** [https://varxosolution.netlify.app/](https://varxosolution.netlify.app/)
+- **Sitemap:** [https://varxosolution.netlify.app/sitemap.xml](https://varxosolution.netlify.app/sitemap.xml)
+- **Robots.txt:** [https://varxosolution.netlify.app/robots.txt](https://varxosolution.netlify.app/robots.txt)
 - **Official Instagram:** [@varxosolutions](https://www.instagram.com/varxosolutions/)
+- **Contact Email:** [varxosolutions@gmail.com](mailto:varxosolutions@gmail.com)
 
 ---
 

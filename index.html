@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Varxo Solution — Technology &amp; AI Solutions</title>
 <meta name="description" content="Varxo Solution builds websites, mobile applications, AI-powered systems and custom software solutions. We turn ambitious ideas into impactful digital products." />
+<link rel="canonical" href="https://varxosolution.netlify.app/" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://varxosolution.netlify.app/" />
+<meta property="og:title" content="Varxo Solution — Technology &amp; AI Solutions" />
+<meta property="og:description" content="Varxo Solution builds websites, mobile applications, AI-powered systems and custom software solutions. We turn ambitious ideas into impactful digital products." />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://varxosolution.netlify.app/" />
+<meta name="twitter:title" content="Varxo Solution — Technology &amp; AI Solutions" />
+<meta name="twitter:description" content="Varxo Solution builds websites, mobile applications, AI-powered systems and custom software solutions. We turn ambitious ideas into impactful digital products." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet" />
@@ -598,73 +611,103 @@
       <p class="t-body text-muted" style="margin-top:16px;">We work with a broad range of technologies to deliver the right solution for every project.</p>
     </div>
 
-    <!-- Dynamically rendered by js/main.js from localStorage -->
-    <div class="tech-categories" id="techCategoriesContainer"></div>
+    <div class="tech-categories" id="techCategoriesContainer">
+      <div class="tech-category-row reveal delay-1">
+        <div class="tech-cat-label">Programming Languages</div>
+        <div class="tech-badges">
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">JavaScript</span>
+          <span class="tech-badge">TypeScript</span>
+          <span class="tech-badge">Kotlin</span>
+          <span class="tech-badge">Swift</span>
+          <span class="tech-badge">Java</span>
+          <span class="tech-badge">C#</span>
+          <span class="tech-badge">Dart</span>
+        </div>
+      </div>
 
-    <!-- Unobtrusive management trigger -->
-    <div class="tech-manager-trigger">
-      <button class="tech-manager-btn" id="openTechManager" aria-haspopup="dialog" aria-label="Manage technologies">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
-        Manage Technologies
-      </button>
+      <div class="tech-category-row reveal delay-2">
+        <div class="tech-cat-label">Frontend Development</div>
+        <div class="tech-badges">
+          <span class="tech-badge">React</span>
+          <span class="tech-badge">Next.js</span>
+          <span class="tech-badge">Vue.js</span>
+          <span class="tech-badge">HTML5</span>
+          <span class="tech-badge">CSS3</span>
+          <span class="tech-badge">Tailwind CSS</span>
+        </div>
+      </div>
+
+      <div class="tech-category-row reveal delay-3">
+        <div class="tech-cat-label">Backend Development</div>
+        <div class="tech-badges">
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Express</span>
+          <span class="tech-badge">Django</span>
+          <span class="tech-badge">FastAPI</span>
+          <span class="tech-badge">Flask</span>
+          <span class="tech-badge">Spring Boot</span>
+        </div>
+      </div>
+
+      <div class="tech-category-row reveal delay-1">
+        <div class="tech-cat-label">Mobile Development</div>
+        <div class="tech-badges">
+          <span class="tech-badge">Android (Kotlin)</span>
+          <span class="tech-badge">iOS (Swift)</span>
+          <span class="tech-badge">Flutter</span>
+          <span class="tech-badge">React Native</span>
+        </div>
+      </div>
+
+      <div class="tech-category-row reveal delay-2">
+        <div class="tech-cat-label">AI &amp; Machine Learning</div>
+        <div class="tech-badges">
+          <span class="tech-badge">TensorFlow</span>
+          <span class="tech-badge">PyTorch</span>
+          <span class="tech-badge">scikit-learn</span>
+          <span class="tech-badge">OpenAI API</span>
+          <span class="tech-badge">Hugging Face</span>
+          <span class="tech-badge">LangChain</span>
+        </div>
+      </div>
+
+      <div class="tech-category-row reveal delay-3">
+        <div class="tech-cat-label">Databases</div>
+        <div class="tech-badges">
+          <span class="tech-badge">PostgreSQL</span>
+          <span class="tech-badge">MySQL</span>
+          <span class="tech-badge">MongoDB</span>
+          <span class="tech-badge">SQLite</span>
+          <span class="tech-badge">Firebase</span>
+          <span class="tech-badge">Redis</span>
+        </div>
+      </div>
+
+      <div class="tech-category-row reveal delay-1">
+        <div class="tech-cat-label">Cloud &amp; Deployment</div>
+        <div class="tech-badges">
+          <span class="tech-badge">AWS</span>
+          <span class="tech-badge">Google Cloud</span>
+          <span class="tech-badge">Azure</span>
+          <span class="tech-badge">Vercel</span>
+          <span class="tech-badge">Docker</span>
+        </div>
+      </div>
+
+      <div class="tech-category-row reveal delay-2">
+        <div class="tech-cat-label">Development Tools</div>
+        <div class="tech-badges">
+          <span class="tech-badge">Git</span>
+          <span class="tech-badge">GitHub</span>
+          <span class="tech-badge">VS Code</span>
+          <span class="tech-badge">Figma</span>
+          <span class="tech-badge">Postman</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-
-<!-- ============================================================
-     TECH MANAGER PANEL (hidden from visitors; activated above)
-     ============================================================ -->
-<div class="tech-manager-overlay" id="techManagerOverlay" role="dialog" aria-modal="true" aria-labelledby="tmPanelTitle">
-  <div class="tech-manager-panel">
-
-    <div class="tm-header">
-      <div class="tm-header-left">
-        <div class="tm-title" id="tmPanelTitle">Manage Technologies</div>
-        <div class="tm-subtitle">Changes are saved automatically and persist after refresh.</div>
-      </div>
-      <div class="tm-header-actions">
-        <button class="tm-btn-reset" id="tmResetBtn" aria-label="Restore default technology list">Restore Defaults</button>
-        <button class="tm-close" id="tmCloseBtn" aria-label="Close manager">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
-        </button>
-      </div>
-    </div>
-
-    <div class="tm-body">
-
-      <!-- Add new technology form -->
-      <form class="tm-add-form" id="tmAddForm" novalidate>
-        <div class="tm-form-title">Add a Technology</div>
-        <div class="tm-form-row">
-          <input class="tm-input" type="text" id="tmNewName" placeholder="Technology name (e.g. Supabase)" required autocomplete="off" />
-          <select class="tm-select" id="tmCatSelect" required>
-            <!-- Populated dynamically -->
-          </select>
-        </div>
-        <button type="submit" class="tm-btn-add">Add Technology</button>
-      </form>
-
-      <!-- Category list with edit / delete per item -->
-      <div class="tm-categories" id="tmCategoryList">
-        <!-- Populated dynamically by js/main.js -->
-      </div>
-
-    </div><!-- /tm-body -->
-  </div><!-- /tech-manager-panel -->
-</div><!-- /tech-manager-overlay -->
-
-<!-- Reset confirmation dialog -->
-<div class="tm-confirm-overlay" id="tmConfirmOverlay" role="alertdialog" aria-modal="true" aria-labelledby="tmConfirmTitle">
-  <div class="tm-confirm-box">
-    <div class="tm-confirm-icon" aria-hidden="true">⚠️</div>
-    <div class="tm-confirm-title" id="tmConfirmTitle">Restore default list?</div>
-    <div class="tm-confirm-desc">This will permanently replace your current technology list with the original defaults. This cannot be undone.</div>
-    <div class="tm-confirm-actions">
-      <button class="tm-btn-cancel" id="tmCancelReset">Cancel</button>
-      <button class="tm-btn-confirm-reset" id="tmConfirmReset">Yes, Restore Defaults</button>
-    </div>
-  </div>
-</div>
 
 <!-- ============================================================
      ABOUT
@@ -794,20 +837,8 @@
             </div>
             <div>
               <div class="contact-channel-label">Email</div>
-              <!-- REPLACE: Add your email address -->
-              <div class="contact-channel-value">hello@varxosolution.com</div>
-              <div class="contact-channel-note">Replace with your actual email address</div>
-            </div>
-          </div>
-          <div class="contact-channel">
-            <div class="contact-channel-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.63 19.79 19.79 0 01.08 1 2 2 0 012.08-.01H5a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.1a16 16 0 006.72 6.72l1.21-1.21a2 2 0 012.11-.45c.9.33 1.85.56 2.81.7A2 2 0 0122 14.92z"/></svg>
-            </div>
-            <div>
-              <div class="contact-channel-label">WhatsApp</div>
-              <!-- REPLACE: Add your WhatsApp number -->
-              <div class="contact-channel-value">+00 000 000 0000</div>
-              <div class="contact-channel-note">Replace with your actual WhatsApp number</div>
+              <div class="contact-channel-value"><a href="mailto:varxosolutions@gmail.com" style="color:inherit;text-decoration:none;">varxosolutions@gmail.com</a></div>
+              <div class="contact-channel-note">Send us an email anytime</div>
             </div>
           </div>
           <div class="contact-channel">
@@ -881,7 +912,7 @@
             ✓ Thank you! Your message has been sent successfully. We will get back to you shortly.
           </div>
           <div class="form-alert-error" id="formError" role="alert">
-            ✕ Submission failed. If testing locally, note that Netlify Forms only receives submissions once deployed on Netlify. You can also reach us directly at hello@varxosolution.com.
+            ✕ Submission failed. If testing locally, note that Netlify Forms only receives submissions once deployed on Netlify. You can also reach us directly at varxosolutions@gmail.com.
           </div>
         </form>
       </div>
@@ -901,18 +932,8 @@
         <a href="#hero" class="nav-logo" aria-label="Varxo Solution — Back to top">VARXO <span>SOLUTION</span></a>
         <p>Building technology for what's next.</p>
         <div class="footer-socials">
-          <!-- REPLACE: Add your actual social media links -->
-          <a href="#" class="social-link" aria-label="LinkedIn" rel="noopener noreferrer">
-            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="Twitter / X" rel="noopener noreferrer">
-            <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
-          </a>
           <a href="https://www.instagram.com/varxosolutions/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
-          <a href="#" class="social-link" aria-label="GitHub" rel="noopener noreferrer">
-            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
           </a>
         </div>
       </div>
