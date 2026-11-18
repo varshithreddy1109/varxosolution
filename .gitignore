@@ -1,14 +1,54 @@
-# Operating System files
-Thumbs.db
-Thumbs.db:encryptable
+# Dependencies
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# Environment and Credentials
+.env
+.env.*
+!.env.example
+*.env
+*.local
+
+# Production & Generated Build Output
+dist/
+build/
+out/
+.cache/
+.temp/
+.tmp/
+
+# Netlify
+.netlify/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 ehthumbs.db
 ehthumbs_vista.db
-*.stackdump
+Thumbs.db
+Thumbs.db:encryptable
 [Dd]esktop.ini
-.DS_Store
+*.stackdump
 
-# Editor / IDE directories
-.vscode/
+# Editor & IDE Directories
+.vscode/*
+!.vscode/extensions.json
 .idea/
 *.sublime-project
 *.sublime-workspace
+*.swp
+*.swo
+*~

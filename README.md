@@ -25,7 +25,7 @@
 - [Netlify Forms Configuration](#-netlify-forms-configuration)
 - [Customization Guide](#-customization-guide)
 - [Links](#-links)
-- [License Recommendation](#-license-recommendation)
+- [Proprietary Notice & License](#-proprietary-notice--license)
 
 ---
 
@@ -150,7 +150,9 @@ The site includes a default categorized dataset of technical proficiencies:
 
 ```
 varxosolution/
-├── .gitignore              # Git ignore rules for OS and IDE files
+├── .gitignore              # Git ignore rules for dependencies, env files, and OS/IDE files
+├── LICENSE                 # Proprietary All Rights Reserved copyright license
+├── README.md               # Repository documentation & guide
 ├── index.html              # Main single-page application structure & content
 ├── css/
 │   └── style.css           # Complete styling, CSS variables, dark theme & responsive rules
@@ -295,25 +297,18 @@ Global design tokens are organized at the top of `css/style.css`:
 
 ---
 
-## 📄 License Recommendation
+## 📄 Proprietary Notice & License
 
-*No license file has been automatically created in order to respect your intellectual property and ownership preferences.*
+Copyright © 2026 **COMPANY NAME**. All Rights Reserved.
 
-### Recommended Options:
+This project and its entire source code, website design, structure, branding, copy, and visual styling are strictly confidential and proprietary to **COMPANY NAME**.
 
-1. **Proprietary / All Rights Reserved (Recommended for Commercial Company Sites):**
-   - If this website represents your proprietary commercial agency or business brand, retaining full copyright is standard practice.
-   - You can add a `LICENSE` file stating:
-     ```
-     Copyright (c) 2026 Varxo Solution. All rights reserved.
-     Unauthorized copying, modification, or distribution of this software and website code is strictly prohibited.
-     ```
+- **No Public License:** This software is not licensed under the MIT License, Apache License, GPL, or any other open-source or public license.
+- **Restrictions:** Unauthorized reproduction, duplication, copying, distribution, decompilation, modification, or commercial exploitation of this repository or any of its contents without prior explicit written permission from **COMPANY NAME** is strictly prohibited.
+- **Third-Party Rights:** All third-party fonts (e.g. Plus Jakarta Sans by Google Fonts), external media assets, and standard web libraries remain the intellectual property and copyright of their respective owners and are used in accordance with their respective terms. No ownership is claimed over any third-party materials.
 
-2. **MIT License (Recommended if Open-Sourcing as a Template):**
-   - If you want other developers to freely use this code or template for their own portfolios or projects, the **MIT License** is standard, permissive, and beginner-friendly.
-
-*Please let us know your preferred licensing model, and we can generate the corresponding `LICENSE` file for you.*
+For inquiries regarding licensing or permissions, please contact the repository administrator.
 
 ---
 
-© 2026 **Varxo Solution**. All rights reserved.
+© 2026 **COMPANY NAME**. All rights reserved.
