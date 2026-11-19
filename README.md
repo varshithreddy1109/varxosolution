@@ -18,7 +18,7 @@
 - [Company Values & Process](#-company-values--process)
 - [Key Website Features](#-key-website-features)
 - [Technologies Used](#-technologies-used)
-- [Screenshots & Visuals](#-screenshots--visuals)
+- [Website Structure & Visual Layout](#-website-structure--visual-layout)
 - [Project Folder Structure](#-project-folder-structure)
 - [Getting Started Locally](#-getting-started-locally)
 - [Deployment Instructions (Netlify)](#-deployment-instructions-netlify)
@@ -113,9 +113,7 @@ The site includes a default categorized dataset of technical proficiencies:
 
 ---
 
-## 📸 Screenshots & Visuals
-
-> *Note: Replace the placeholder cards below with real screenshots by adding image files to an `assets/screenshots/` folder.*
+## 📸 Website Structure & Visual Layout
 
 ### Desktop Layout Preview
 ```
@@ -136,13 +134,13 @@ The site includes a default categorized dataset of technical proficiencies:
 +-----------------------------------------------------------------------------------+
 ```
 
-| Hero & Navigation | Services Overview |
-|:---:|:---:|
-| ![Hero Section Placeholder](assets/hero-placeholder.png)<br>*Hero section with video background & CTA* | ![Services Grid Placeholder](assets/services-placeholder.png)<br>*6-pillar technology service cards* |
-
-| Featured Work Showcase | Contact & Netlify Form |
-|:---:|:---:|
-| ![Work Showcase Placeholder](assets/work-placeholder.png)<br>*Project mockups with interactive detail modals* | ![Contact Form Placeholder](assets/contact-placeholder.png)<br>*Validated contact form with spam protection* |
+| Website Section | Description |
+|---|---|
+| **Hero & Navigation** | Dual-video background hero with dynamic typography and call-to-action triggers |
+| **Services Overview** | 6-pillar technology service cards with interactive hover depth |
+| **Featured Work Showcase** | Clean project browser & mobile mockups with accessible detail modals |
+| **Technologies Grid** | Categorized technical proficiency matrix spanning 8 core domains |
+| **Contact Section** | Asynchronous Netlify form with validation and direct communication channels |
 
 ---
 
@@ -264,12 +262,12 @@ The contact form is pre-configured to work seamlessly with **Netlify Forms**:
 ## 🎨 Customization Guide
 
 ### 1. Updating Brand Details & Contact Info
-- **Email, Phone & Social Links:** Open `index.html` and search for the `<!-- REPLACE: ... -->` comments in the `#contact` and `#footer` sections.
-- **Hero Video & Poster:** To customize the hero video background, replace the video and poster URLs in lines 66–72 of `index.html`.
+- **Email, Phone & Social Links:** Contact details and social handles are configured in `index.html` within the `#contact` and `#footer` sections.
+- **Hero Video & Poster:** To customize the hero video background, replace the video and poster URLs in `index.html`.
 
 ### 2. Updating Showcase Projects
 - **Modal Descriptions:** Edit the modal content in `index.html` under the `<!-- PROJECT DETAIL MODALS -->` section.
-- **Cards & Visuals:** Place your actual project screenshots in the `assets/` directory and update the mockup containers in `index.html`.
+- **Cards & Visuals:** Place project screenshots in the `assets/` directory and update the mockup containers in `index.html`.
 
 ### 3. Customizing the Technologies Section
 - The technologies section is structured cleanly in `index.html` under `<div class="tech-categories">`. You can add, edit, or reorganize categories and badges directly in the HTML.
@@ -303,16 +301,16 @@ Global design tokens are organized at the top of `css/style.css`:
 
 ## 📄 Proprietary Notice & License
 
-Copyright © 2026 **COMPANY NAME**. All Rights Reserved.
+Copyright © 2026 **Varxo Solution**. All Rights Reserved.
 
-This project and its entire source code, website design, structure, branding, copy, and visual styling are strictly confidential and proprietary to **COMPANY NAME**.
+This project and its entire source code, website design, structure, branding, copy, and visual styling are strictly confidential and proprietary to **Varxo Solution**.
 
 - **No Public License:** This software is not licensed under the MIT License, Apache License, GPL, or any other open-source or public license.
-- **Restrictions:** Unauthorized reproduction, duplication, copying, distribution, decompilation, modification, or commercial exploitation of this repository or any of its contents without prior explicit written permission from **COMPANY NAME** is strictly prohibited.
+- **Restrictions:** Unauthorized reproduction, duplication, copying, distribution, decompilation, modification, or commercial exploitation of this repository or any of its contents without prior explicit written permission from **Varxo Solution** is strictly prohibited.
 - **Third-Party Rights:** All third-party fonts (e.g. Plus Jakarta Sans by Google Fonts), external media assets, and standard web libraries remain the intellectual property and copyright of their respective owners and are used in accordance with their respective terms. No ownership is claimed over any third-party materials.
 
 For inquiries regarding licensing or permissions, please contact the repository administrator.
 
 ---
 
-© 2026 **COMPANY NAME**. All rights reserved.
+© 2026 **Varxo Solution**. All rights reserved.
